@@ -6,7 +6,7 @@ function App() {
   return (
     <>
    <Navegador></Navegador>
-   <h1>pixel</h1>
+   <h1>pixelgit </h1>
       </>
   )
 }

@@ -1,0 +1,24 @@
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+   width: 100%;
+
+ 
+    
+    
+}
+.logonav{
+    margin: 0px 10px;
+    display: flex;
+}
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center
+  }
+body{
+    overflow-x: hidden;
+    background: url(img/bg.png);
+    font-family: sans-serif;
+}

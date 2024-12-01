@@ -1,3 +1,4 @@
+import "./navegador.css"
 export const Navegador=()=>{
     return(
         <>
