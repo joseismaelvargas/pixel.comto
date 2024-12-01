@@ -6,6 +6,7 @@ function App() {
   return (
     <>
    <Navegador></Navegador>
+   <h1>pixel</h1>
       </>
   )
 }
