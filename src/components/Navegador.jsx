@@ -2,7 +2,7 @@ export const Navegador=()=>{
     return(
         <>
           <nav class="navContainer">
-           <img class="logonav" src="./public/img/logo.png" alt="" width={"250px"}></img>
+           <img class="logonav" src="/img/logo.png" alt="" width={"250px"}></img>
          <div class="item">
             <a href="" >inicio</a>
          
