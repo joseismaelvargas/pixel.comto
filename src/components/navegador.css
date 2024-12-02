@@ -19,7 +19,7 @@
   }
 body{
     overflow-x: hidden;
-    background: url(img/bg.png);
+    background: url(/img/bg.png);
     font-family: sans-serif;
 }
 .poetsen-one-regular {

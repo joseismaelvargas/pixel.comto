@@ -1,4 +1,5 @@
 import { Navegador } from "./components/Navegador"
+import { Main } from "./components/Main"
 
 function App() {
  
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
    <Navegador></Navegador>
-   <h1>pixelgit </h1>
+   <Main></Main>
       </>
   )
 }

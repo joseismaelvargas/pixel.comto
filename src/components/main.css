@@ -1,0 +1,43 @@
+.secctioninicial{
+    display: flex;
+    justify-content: space-around;
+}
+.imgmain{
+    width: 500px;
+}
+.title{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 90px;
+}
+.parrafo{
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+.estilobutton{
+    background-color: rgb(197, 59, 4);
+          color: white;
+          font-family: sans-serif;
+          font-weight: bold;
+          border-radius: 10px;
+          border: none;
+          width: 150px;
+          height: 50px;
+          
+          cursor: pointer
+}
+@media only screen and (max-width: 700px) {
+    .secctioninicial{
+        flex-wrap: wrap;
+    }
+   
+}
+@media only screen and (max-width: 500px) {
+    .secctioninicial{
+        flex-wrap: wrap;
+    }
+    .img{
+      margin: 100px auto;
+    }
+}
