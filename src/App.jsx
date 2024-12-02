@@ -1,5 +1,5 @@
-import { Navegador } from "./components/Navegador"
-import { Main } from "./components/Main"
+import { Navegador } from "./components/Navegador.jsx"
+import { Main } from "./components/Main.jsx"
 
 function App() {
  
