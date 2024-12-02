@@ -1,4 +1,4 @@
-// import { Navegador } from "./components/Navegador"
+import { Navegador } from "./components/Navegador"
 import { Main } from "./components/Main"
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-   {/* <Navegador></Navegador> */}
+   <Navegador></Navegador>
    <Main></Main>
       </>
   )
