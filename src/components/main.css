@@ -8,11 +8,13 @@
 .title{
     font-weight: bold;
     font-family: sans-serif;
-    font-size: 90px;
+    font-size: 70px;
+    color: black;
 }
 .parrafo{
     font-family: sans-serif;
     font-weight: bold;
+    color: black;
 
 }
 .estilobutton{
@@ -27,11 +29,102 @@
           
           cursor: pointer
 }
+/* pixel info */
+.material-symbols-outlined{
+    font-size: 60px;
+}
+.roboto-thin-nosotros {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    color: white;
+  }
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(68, 66, 66);
+  }
+  .subtitle{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+  }
+.nosotros{
+    width: 530px ;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    margin: 60px;
+}
+.sectioninfo{
+    background-color: #ce4949;
+}
+.caja{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 40;
+    color: rgb(255, 72, 0);
+  
+    
+  }  
+  .boxfather{
+    display: flex;
+    justify-content: space-between;
+  }
+  .boxson{
+    font-weight: bold;
+    padding: 10px 10px;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    background-color: rgb(241, 240, 238);
+     color: rgb(17, 17, 17);
+    border-radius: 10px;
+    margin: 0 auto 50px; /* Márgenes automáticos en los lados */
+    
+    
+  }
+  #title-caja{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+  }
 @media only screen and (max-width: 700px) {
     .secctioninicial{
         flex-wrap: wrap;
     }
-   
+    .pixel{
+        margin: 20px auto;
+    }
+    .title{
+        font-size: 70px;
+        margin: 0px 40px;
+    }
+    .parrafo{
+        margin: 0px 40px;
+    }
+    .estilobutton{
+        margin: 0px 40px;
+    }
+    .imgmain{
+        margin: 40px auto;
+    }
+   .boxfather{
+    display: flex;
+    flex-wrap: wrap;
+   }
 }
 @media only screen and (max-width: 500px) {
     .secctioninicial{
@@ -40,4 +133,38 @@
     .img{
       margin: 100px auto;
     }
-}
+    .boxfather{
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .sectioninfo{
+        margin: auto auto;
+        width: 500px;
+       }
+       .imgmain{
+        margin: auto auto;
+       }
+       .caja{
+        margin: 60px auto;
+        width:auto  ;
+        
+        text-align: center;
+       }
+       .roboto-thin-nosotros{
+        font-size: 21px;
+        
+       }
+       .boxson{
+        width: 1000px;
+        height: 500px;
+       }
+       #title-caja{
+        font-size: 39px;
+       }
+       .roboto-thin{
+        font-size: 22px;
+       }
+       .material-symbols-outlined{
+        font-size: 90px;
+       }
+       }
