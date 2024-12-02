@@ -1,4 +1,4 @@
-import { Navegador } from "./components/Navegador.jsx"
+// import { Navegador } from "./components/Navegador.jsx"
 import { Main } from "./components/Main.jsx"
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-   <Navegador></Navegador>
+   {/* <Navegador></Navegador> */}
    <Main></Main>
       </>
   )
