@@ -1,5 +1,5 @@
 import { Pixelinit } from "./secciones/Pixelinit.jsx"
-import { Pixelinfo } from "./secciones/pixelinfo.jsx"
+import { Pixelinfo } from "./secciones/Pixelinfo.jsx"
 export const Main =()=>{
     return(
         <>
