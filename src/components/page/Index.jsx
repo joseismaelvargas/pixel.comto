@@ -1,6 +1,6 @@
-import { Pixelinit } from "./secciones/Pixelinit.jsx"
-import { Pixelinfo } from "./secciones/Pixelinfo.jsx"
-export const Main =()=>{
+import { Pixelinit } from "../secciones/Pixelinit.jsx"
+import { Pixelinfo } from "../secciones/Pixelinfo.jsx"
+export const Index=()=>{
     return(
         <>
         <main>

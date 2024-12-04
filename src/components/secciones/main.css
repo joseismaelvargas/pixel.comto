@@ -6,6 +6,7 @@ body{
 .secctioninicial{
     display: flex;
     justify-content: space-around;
+    margin: 80px;
 }
 .imgmain{
     width: 500px;
@@ -63,7 +64,7 @@ body{
     flex-direction: column;
     height: auto;
     text-align: center;
-    margin: 60px;
+    margin: 50px;
 }
 .sectioninfo{
     background-color: #ce4949;

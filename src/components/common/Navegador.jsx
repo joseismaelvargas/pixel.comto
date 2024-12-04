@@ -1,6 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { useNavigate } from 'react-router-dom';
+import { Link, NavLink } from "react-router-dom";
 import "./navegador.css"
 
 function Navegador() {
@@ -11,10 +13,10 @@ function Navegador() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="link d-flex ms-auto">
-            <Nav.Link href="#home">inicio</Nav.Link>
-            <Nav.Link href="#link">Nosotros </Nav.Link>
-            <Nav.Link href='#link'>Nuestro Equipo</Nav.Link>
-            <Nav.Link href='#link'>Contacto</Nav.Link>
+            <NavLink className={"navegadores"} end to="/">inicio</NavLink>
+            <NavLink className={"navegadores"} href="#link">Nosotros </NavLink>
+            <NavLink className={"navegadores"} href='#link'>Nuestro Equipo</NavLink>
+            <NavLink className={"navegadores"} end to="/contacto">Contacto</NavLink>
             <button class="buttonnav">SERVICIOS</button>
           
          

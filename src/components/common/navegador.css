@@ -29,7 +29,7 @@ body{
     
   }
   
-.item a{
+.NavLink{
  color: black;
    margin: 0 10px;
    
@@ -51,6 +51,11 @@ body{
  margin: -10PX 0px;
 
 }
+.navegadores{
+  text-decoration: none;
+  color:black;
+  margin: 0px 10px;
+}
 .item{
     margin: 40px;
     display: flex;
@@ -60,5 +65,6 @@ body{
   font-family: sans-serif;
   font-weight: bold;
   font-size: 18px;
-color: black;
+    color: black;
+   text-decoration: none;
 }

@@ -1,4 +1,4 @@
-import "../main.css"
+import "./main.css"
 import { motion } from 'framer-motion';
 export const Pixelinit=()=>{
     return(
