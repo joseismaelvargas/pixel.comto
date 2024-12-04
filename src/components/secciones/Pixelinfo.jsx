@@ -1,3 +1,4 @@
+import "../main.css"
 export const Pixelinfo=()=>{
     return(
         <>
@@ -38,7 +39,16 @@ export const Pixelinfo=()=>{
                 </div>
 
              </div>
+          <div className="secctionpixel">
+            <img src="./img/about-banner.png" alt="imgpixel" width={"350px"} />
           
+           <div className="pixel1">
+           <h1 >En Pixel, crecemos <br></br> contigo. Tu éxito es <br></br>nuestro éxito   </h1>
+            <p class="roboto-thinpixel ">¿Estás listo para llevar la imagen de tu marca al siguiente nivel? ¡Haz clic en el botón "Ver más" a continuación para descubrir cómo podemos crear un logotipo que refleje la esencia de tu negocio!</p>
+            <button class="verMas">VER MAS</button>
+           </div>
+
+          </div>
 
         </section>
         </>

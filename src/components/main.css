@@ -106,9 +106,49 @@ body{
     font-weight: bold;
     font-size: 23px;
   }
+/* section 2 */
+.roboto-thinpixel{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(250, 226, 226);
+  }
+.secctionpixel{
+ 
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+   }
+   .pixel1{
+    width:600px;
+    color: white;
+   }
+   .verMas{
+     width: 150px;
+     height: 50px;
+     border: none;
+     background-color: rgb(218, 96, 96);
+     border: solid 1px white;
+     border-radius: 5px;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+   
+   }
+   .verMas:hover{
+     background-color: azure;
+     color: black;
+   }
 @media only screen and (max-width: 700px) {
     .secctioninicial{
         flex-wrap: wrap;
+    }
+    .secctionpixel{
+        flex-wrap: wrap;
+    }
+    .pixel1{
+        margin: 60px;
     }
     .pixel{
         margin: 20px auto;
@@ -162,6 +202,12 @@ body{
        .boxson{
         width: 1000px;
         height: 500px;
+       }
+       .pixel1{
+        width: 700px;
+        margin: 40px auto;
+        font-size: 23px;
+        /* border: solid wheat 2px; */
        }
        #title-caja{
         font-size: 39px;
