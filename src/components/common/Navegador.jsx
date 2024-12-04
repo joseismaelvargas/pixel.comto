@@ -15,7 +15,7 @@ function Navegador() {
           <Nav className="link d-flex ms-auto">
             <NavLink className={"navegadores"} end to="/">inicio</NavLink>
             <NavLink className={"navegadores"} href="#link">Nosotros </NavLink>
-            <NavLink className={"navegadores"} href='#link'>Nuestro Equipo</NavLink>
+            <NavLink className={"navegadores"} end to="/equipo">Nuestro Equipo</NavLink>
             <NavLink className={"navegadores"} end to="/contacto">Contacto</NavLink>
             <button class="buttonnav">SERVICIOS</button>
           

@@ -40,7 +40,7 @@ export const Pixelinfo=()=>{
 
              </div>
           <div className="secctionpixel">
-            <img src="./img/about-banner.png" alt="imgpixel" width={"350px"} />
+            <img src="./img/about-banner.png" alt="imgpixel" width={"350px"} className="imgpix" />
           
            <div className="pixel1">
            <h1 >En Pixel, crecemos <br></br> contigo. Tu éxito es <br></br>nuestro éxito   </h1>

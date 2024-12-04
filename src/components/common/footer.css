@@ -28,4 +28,42 @@ footer{
     }
     footer p{
       color: rgb(122, 122, 122);
-    } 
+    } @media only screen and (max-width: 700px) {
+      .secctioninicial{
+          flex-wrap: wrap;
+      }
+      .secctionpixel{
+          flex-wrap: wrap;
+      }
+      .pixel1{
+          margin: 60px;
+      }
+      .pixel{
+          margin: 20px auto;
+      }
+      .title{
+          font-size: 70px;
+          margin: 0px 40px;
+      }
+      .parrafo{
+          margin: 0px 40px;
+      }
+      .estilobutton{
+          margin: 0px 40px;
+      }
+      .imgmain{
+          margin: 40px auto;
+      }
+     .boxfather{
+      display: flex;
+      flex-wrap: wrap;
+     }
+  }
+  @media only screen and (max-width: 500px) {
+    /* footer{
+      width: 750px;
+  } */
+  .footerContainer{
+     justify-content: space-evenly;
+  }
+  }

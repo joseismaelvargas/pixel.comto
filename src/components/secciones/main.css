@@ -6,7 +6,8 @@ body{
 .secctioninicial{
     display: flex;
     justify-content: space-around;
-    margin: 80px;
+    margin: 0px;
+  
 }
 .imgmain{
     width: 500px;
@@ -21,6 +22,8 @@ body{
     font-family: sans-serif;
     font-weight: bold;
     color: black;
+    font-size: 15px;
+    margin: 0px -100px;
 
 }
 .estilobutton{
@@ -175,7 +178,20 @@ body{
 @media only screen and (max-width: 500px) {
     .secctioninicial{
         flex-wrap: wrap;
+      
     }
+    .title{
+      font-size: 20px;
+    }
+    .imgmain{
+      width: 400px;
+     
+  
+    }
+    .imgpix{
+      margin: 0px -100px;
+    }
+   
     .img{
       margin: 100px auto;
     }
@@ -205,11 +221,14 @@ body{
         height: 500px;
        }
        .pixel1{
-        width: 700px;
-        margin: 40px auto;
-        font-size: 23px;
-        /* border: solid wheat 2px; */
+        width: 90%;
+    margin: 0 auto;
+    height: auto;
+    padding: 10px;
+    border: none;
+
        }
+     
        #title-caja{
         font-size: 39px;
        }

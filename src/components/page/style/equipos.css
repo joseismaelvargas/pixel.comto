@@ -1,0 +1,80 @@
+.SobreElequipo{
+  
+    margin: 50px 200px;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+  }
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(88, 87, 87);
+  }
+  .diseñadores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 100px;
+  
+  }
+  .estrategas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 200px;
+    /* text-align: center; */
+  
+  }
+  .parrafo{
+    text-align: left;
+    margin: 0px 100px;
+    width: 400px;
+    height:400px ;
+   
+    
+  }
+  .img{
+    width: 500px;
+    border-radius: 50%;
+  }
+  .parrafo p{ 
+    font-size: 20px;
+    
+    color:gray ;
+  }
+  @media only screen and (max-width: 700px) {
+    .diseñadores, .estrategas {
+      flex-direction: column;
+      margin: 0 10px;
+    }
+    .parrafo {
+      width: 90%;
+      margin: 0 auto;
+      height: auto;
+      padding: 10px;
+      border: none;
+    }
+    .img{
+     margin: 100px -5px;
+     width: 400px;
+    }
+}
+@media only screen and (max-width: 500px) {
+  .img{
+    margin: 140px -5px;
+    width: 350px;
+   }
+   .parrafo {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding: 10px;
+    border: none;}
+    .SobreElequipo{
+     margin: 100px;
+    }
+  
+       }
