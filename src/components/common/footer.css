@@ -60,10 +60,21 @@ footer{
      }
   }
   @media only screen and (max-width: 450px) {
-    footer{
-      width: 455px;
+    footer {
+      padding: 10px; /* Reduce el padding para pantallas muy pequeñas */
   }
-  .footerContainer{
-     justify-content: space-evenly;
+
+  .footerContainer {
+      justify-content: center; /* Centra los elementos del footer en pantallas muy pequeñas */
+  }
+
+  .flex1, .flex2, .flex3, .flex4, .flex5 {
+      width: 50%; /* Asegura que las secciones ocupen todo el ancho */
+      margin: 10px 0; /* Reduce los márgenes entre las secciones */
+      text-align: center; /* Centra el contenido dentro de cada sección */
+  }
+
+  .bi {
+      font-size: 18px; /* Ajusta el tamaño de los iconos en pantallas pequeñas */
   }
   }

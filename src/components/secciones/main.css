@@ -12,13 +12,13 @@ body{
 .imgmain{
     width: 500px;
 }
-.title{
+.titleinit{
     font-weight: bold;
     font-family: sans-serif;
     font-size: 70px;
     color: rgb(0, 0, 0);
 }
-.parrafos{
+.parrafosinit{
     font-family: sans-serif;
     font-weight: bold;
     color: rgb(0, 0, 0);
@@ -185,7 +185,7 @@ body{
     }
   
     .imgmain{
-      width: 400px;
+      width: 350px;
      
   
     }
@@ -196,6 +196,7 @@ body{
     .img{
       margin: 100px auto;
     }
+    
     .boxfather{
         display: flex;
         flex-wrap: wrap;
@@ -221,14 +222,17 @@ body{
         width: 1000px;
         height: 500px;
        }
-       .pixel1{
-      
+       .secctionpixel{
         
-          max-width: 100%; /* Ancho completo en pantallas muy pequeñas */
-          margin: 30px 0; /* Ajusta los márgenes para un espaciado adecuado */
+        
+          width: 100%; 
+        margin: 0px -10px;
+         
         
       }
-
+      .pixel1{
+        text-align: start;
+      }
 
        
      
@@ -239,22 +243,31 @@ body{
         font-size: 22px;
        }
        .roboto-thinpixel{
-        text-align: center;
+        text-align: start;
+        font-size: 20px;
        }
        .material-symbols-outlined{
         font-size: 90px;
        }
-       .parrafos{
-        font-size: 23px;
+       .parrafosinit{
+        font-size: 20px;
         margin: 20px;
+        text-align: start;
        }
       .pixel{
-        width: 400px;
-        margin: 0px -30px;
-        /* border: solid 2px black; */
+        width: 100%;
+        /* margin: 0px -30px; */
+        
+      
       }
-      .title{
-        font-size: 10px;
-        margin: auto auto;
+      .titleinit{
+        color: #030303;
+        text-align: start;
+        font-size: 65px;
+      }
+      .pixel1 h1{
+       font-size: 35px;
+       font-weight: 600;
+       margin: 10px;
       }
        }
