@@ -6,7 +6,7 @@ body{
 .secctioninicial{
     display: flex;
     justify-content: space-around;
-    margin: 0px;
+
   
 }
 .imgmain{
@@ -16,14 +16,14 @@ body{
     font-weight: bold;
     font-family: sans-serif;
     font-size: 70px;
-    color: black;
+    color: rgb(0, 0, 0);
 }
-.parrafo{
+.parrafos{
     font-family: sans-serif;
     font-weight: bold;
-    color: black;
-    font-size: 15px;
-    margin: 0px -100px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    /* margin: 0px -100px; */
 
 }
 .estilobutton{
@@ -35,7 +35,7 @@ body{
           border: none;
           width: 150px;
           height: 50px;
-          
+    
           cursor: pointer
 }
 /* pixel info */
@@ -67,7 +67,7 @@ body{
     flex-direction: column;
     height: auto;
     text-align: center;
-    margin: 50px;
+    /* margin: 50px; */
 }
 .sectioninfo{
     background-color: #ce4949;
@@ -126,6 +126,8 @@ body{
    }
    .pixel1{
     width:600px;
+    margin: 60px auto;
+    
     color: white;
    }
    .verMas{
@@ -153,6 +155,7 @@ body{
     }
     .pixel1{
         margin: 60px;
+
     }
     .pixel{
         margin: 20px auto;
@@ -175,14 +178,12 @@ body{
     flex-wrap: wrap;
    }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
     .secctioninicial{
         flex-wrap: wrap;
       
     }
-    .title{
-      font-size: 20px;
-    }
+  
     .imgmain{
       width: 400px;
      
@@ -221,13 +222,15 @@ body{
         height: 500px;
        }
        .pixel1{
-        width: 90%;
-    margin: 0 auto;
-    height: auto;
-    padding: 10px;
-    border: none;
+      
+        
+          max-width: 100%; /* Ancho completo en pantallas muy pequeñas */
+          margin: 30px 0; /* Ajusta los márgenes para un espaciado adecuado */
+        
+      }
 
-       }
+
+       
      
        #title-caja{
         font-size: 39px;
@@ -235,7 +238,23 @@ body{
        .roboto-thin{
         font-size: 22px;
        }
+       .roboto-thinpixel{
+        text-align: center;
+       }
        .material-symbols-outlined{
         font-size: 90px;
        }
+       .parrafos{
+        font-size: 23px;
+        margin: 20px;
+       }
+      .pixel{
+        width: 400px;
+        margin: 0px -30px;
+        /* border: solid 2px black; */
+      }
+      .title{
+        font-size: 10px;
+        margin: auto auto;
+      }
        }

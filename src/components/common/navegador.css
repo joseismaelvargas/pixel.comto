@@ -68,3 +68,11 @@ body{
     color: black;
    text-decoration: none;
 }
+@media only screen and (max-width: 450px) {
+  .buttonnav{
+    margin:  10px -7px;
+  }
+  .link{
+    margin: 30px;
+  }
+     }

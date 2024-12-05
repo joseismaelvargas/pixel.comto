@@ -59,10 +59,10 @@ footer{
       flex-wrap: wrap;
      }
   }
-  @media only screen and (max-width: 500px) {
-    /* footer{
-      width: 750px;
-  } */
+  @media only screen and (max-width: 450px) {
+    footer{
+      width: 455px;
+  }
   .footerContainer{
      justify-content: space-evenly;
   }

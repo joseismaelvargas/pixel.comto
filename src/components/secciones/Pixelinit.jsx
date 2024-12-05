@@ -16,7 +16,7 @@ export const Pixelinit=()=>{
           </motion.h1>
 
           <motion.p
-            className="parrafo"
+            className="parrafos"
             initial={{ opacity: 0 }}  
             animate={{ opacity: 1 }} 
             transition={{ duration: 2, delay: 0.5 }}  
