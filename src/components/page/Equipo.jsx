@@ -42,7 +42,7 @@ export const Equipo=()=>{
     
       <div className="parrafo">
         <h1 style={{fontSize:"40px",fontWeight:"bold"}}>Estrategas de Marca Expertos en su Campo</h1>
-        <p>Nuestros estrategas de marca son los arquitectos detrás de las identidades visuales sólidas y cohesivas que creamos para nuestros clientes. Con un profundo entendimiento del mercado y las audiencias objetivo, trabajan en estrecha colaboración con nuestros diseñadores para desarrollar  estrategias de branding que transmitan mensajes claros y auténticos. Ya sea que se trate de crear una nueva marca desde cero o revitalizar una existente, nuestros estrategas de marca están comprometidos a garantizar que cada aspecto de la identidad visual refleje la visión y los valores de nuestros clientes.</p>
+        <p>Nuestros estrategas de marca son los arquitectos detrás de las identidades visuales sólidas y cohesivas que creamos para nuestros clientes. Con un profundo entendimiento del mercado y las audiencias objetivo, trabajan en estrecha colaboración con nuestros diseñadores para desarrollar  estrategias de branding que transmitan mensajes claros y auténticos.</p>
       </div>
       <br></br>
       <br></br>
