@@ -9,6 +9,7 @@ form button{
     color: white;
     font-weight: bold;
     border-radius: 10px;
+    margin: 32px;
     
   }
   form input{
@@ -20,6 +21,7 @@ form button{
     box-shadow: rgb(255, 253, 253) 1px 1px 1px 2px;
     margin: 0px 20px;
     text-decoration: overline;
+    border: solid 2px rgb(168, 166, 163);
   
    
     
@@ -28,6 +30,7 @@ form button{
     border-radius: 10px;
   }
   .mensaje{
+    border: solid 2px rgb(168, 166, 163);
     border: none;
     height: 110px;
     width: 250px;
@@ -56,6 +59,7 @@ form button{
   .form label{
     font-weight: bold;
     color: rgb(11, 11, 107);
+    font-size: 23px;
     
     
   }
@@ -67,6 +71,10 @@ form button{
     width: 600px;
     height: 400px;
   
+  }
+  .formthend{
+    display: flex;
+    flex-wrap: wrap;
   }
     
   @media only screen and (max-width: 700px) {
@@ -91,5 +99,16 @@ form button{
 
 .imgcontacto{
   width: 240px;
+  margin: 10px;
 }
-       }
+.form label{
+  font-size: 25px;
+}
+.form input{
+  height: 50px;
+}
+.formthend{
+  margin: 300px;
+  width: 1000%;
+}
+}
