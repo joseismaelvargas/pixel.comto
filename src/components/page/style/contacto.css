@@ -24,11 +24,25 @@ form button{
    
     
   }
+  .imgcontacto{
+    border-radius: 10px;
+  }
+  .mensaje{
+    border: none;
+    height: 110px;
+    width: 250px;
+    /* text-align: center; */
+    border-radius: 10px;
+    box-shadow: rgb(255, 253, 253) 1px 1px 1px 2px;
+    margin: 0px 20px;
+    text-decoration: overline;
+  }
   
   .form{
     display: flex;
     flex-direction: row;
    justify-content: center;
+   flex-wrap: wrap;
     margin: 50px ;
   }
   .form form{
@@ -55,3 +69,27 @@ form button{
   
   }
     
+  @media only screen and (max-width: 700px) {
+    .diseñadores, .estrategas {
+      flex-direction: column;
+      margin: 0 10px;
+    }
+    .parrafo {
+      width: 90%;
+      margin: 0 auto;
+      height: auto;
+      padding: 10px;
+      border: none;
+    }
+    .img{
+     margin: 100px -5px;
+     width: 400px;
+    }
+}
+@media only screen and (max-width: 500px) {
+  
+
+.imgcontacto{
+  width: 240px;
+}
+       }

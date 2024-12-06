@@ -16,8 +16,8 @@ function Navegador() {
             <NavLink className={"navegadores"} end to="/">inicio</NavLink>
             <NavLink className={"navegadores"} href="#link">Nosotros </NavLink>
             <NavLink className={"navegadores"} end to="/equipo">Nuestro Equipo</NavLink>
-            <NavLink className={"navegadores"} end to="/contacto">Contactanos</NavLink>
-            <button class="buttonnav">SERVICIOS</button>
+            <NavLink className={"navegadores"} end to="/contacto">Contacto</NavLink>
+            <button class="buttonnav">Iniciar Sesion</button>
           
          
           </Nav>
