@@ -72,6 +72,11 @@ form button{
     height: 400px;
   
   }
+  .error{
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
   .formthend{
     display: flex;
     flex-wrap: wrap;

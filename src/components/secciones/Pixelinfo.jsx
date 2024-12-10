@@ -1,4 +1,5 @@
 import "./main.css"
+import { Link, useNavigate } from "react-router-dom"
 export const Pixelinfo=()=>{
     return(
         <>
@@ -45,7 +46,8 @@ export const Pixelinfo=()=>{
            <div className="pixel1">
            <h1 >En Pixel, crecemos <br></br> contigo. Tu éxito es <br></br>nuestro éxito   </h1>
             <p class="roboto-thinpixel ">¿Estás listo para llevar la imagen de tu marca al siguiente nivel? ¡Haz clic en el botón "Ver más" a continuación para descubrir cómo podemos crear un logotipo que refleje la esencia de tu negocio!</p>
-            <button class="verMas">VER MAS</button>
+            <Link end to="/metodologia"> 
+            <button class="verMas" >VER MAS</button></Link>
            </div>
 
           </div>
