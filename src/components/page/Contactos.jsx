@@ -11,8 +11,9 @@ export const Contactos=()=>{
     const form = useRef();
 
     const sendEmail = (e) => {
-      e.preventDefault();
-  
+    
+      
+       
       emailjs
         .sendForm('service_0hiib5a', 'template_ixeaf0s', form.current, {
           publicKey: 'YsSHDf_TbSF18GkGC',
@@ -27,10 +28,11 @@ export const Contactos=()=>{
                 timer: 1500
               });
              console.log('SUCCESS!');
-            //  form.current.reset()
+         reset()
           },
           (error) => {
             console.log('FAILED...', error.text);
+         
           },
         );
     };
@@ -50,7 +52,7 @@ export const Contactos=()=>{
 
     <form ref={form}class="formthend" onSubmit={handleSubmit(sendEmail)}>
 
-       <label for="">Nombre</label>
+       <label for="">Nombre Completo</label>
        <input type="text"  name="user_name" {...register("user_name",
         {required:"Agregue su nombre",
         minLength:{value:4,message:"Agregue un nombre valido"}
@@ -62,15 +64,22 @@ export const Contactos=()=>{
        <label for="">Correo Electronico*</label>
        <input type="email" name="user_email" {...register("user_email",{
         required:"Agregue su email",
-        minLength:{value:4,message:"Agregue un email valido"}
+        pattern: { value: /^\S+@\S+$/i, message: "Correo inválido" },
        })}></input>
        {errors.user_email&&<p className="error">{errors.user_email.message}</p>}
+       <label htmlFor="">Asunto</label>
+       <input type="text" name="message"{...register("user_asunto",{
+        required:"Agregue Asunto",
+        minLength:{value:4 ,message:"Agruege mas contexto"}
+       })} />
+            {errors.user_asunto&&<p className="error">{errors.user_asunto.message}</p>}
        <label for="">¿Como podemos ayudar?</label>
         <textarea type="text" placeholder="Ingrese Mensaje" className="mensaje" name="message" {...register("message",{
           required:"Agregue el mensaje por favor",
-          minLength:{value:6,message:"Agruegue mas contexto al mensaje"}
+          minLength:{value:6,message:"Agregue mas contexto al mensaje"}
         })}></textarea>
         {errors.message&&<p className="error">{errors.message.message}</p>}
+     
        <button type="submit">ENVIAR</button>
     </form>
        </motion.section>

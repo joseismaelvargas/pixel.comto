@@ -7,6 +7,7 @@ import { Equipo } from "./components/page/Equipo.jsx";
 import { Metodologia } from "./components/page/Metodologia.jsx";
 import Navegador from "./components/common/Navegador.jsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
  
 

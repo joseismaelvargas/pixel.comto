@@ -6,6 +6,7 @@ body{
 .secctioninicial{
     display: flex;
     justify-content: space-around;
+   
 
   
 }
@@ -49,12 +50,12 @@ body{
     font-size: 21px;
     color: white;
   }
-  .roboto-thin {
+  .roboto-thininfo {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 16px;
-    color: rgb(68, 66, 66);
+    font-size: 17px;
+    color: rgb(83, 80, 80);
   }
   .subtitle{
     color: white;
@@ -71,6 +72,7 @@ body{
 }
 .sectioninfo{
     background-color: #ce4949;
+  
 }
 .caja{
     margin: 100px auto;
@@ -90,6 +92,7 @@ body{
   .boxfather{
     display: flex;
     justify-content: space-between;
+  
   }
   .boxson{
     font-weight: bold;
@@ -101,7 +104,8 @@ body{
     background-color: rgb(241, 240, 238);
      color: rgb(17, 17, 17);
     border-radius: 10px;
-    margin: 0 auto 50px; /* Márgenes automáticos en los lados */
+    margin: 50px auto 50px;
+    border: solid rgb(27, 26, 26) 4px ;
     
     
   }
