@@ -1,0 +1,18 @@
+.title-meto{
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 70px;
+    margin: 100px;
+    color: rgb(31, 29, 29);
+}
+.seccionmetodologia{
+    overflow-x: hidden;
+    /* margin: 100px; */
+    background-image: url("/img/imgmeto.jpg");
+}
+.parrafo-meto{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}

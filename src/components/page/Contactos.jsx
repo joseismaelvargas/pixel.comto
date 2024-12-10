@@ -2,11 +2,12 @@ import "./style/contacto.css"
 import { motion } from "framer-motion"
 
 import React, { useRef } from 'react';
+import { useForm } from "react-hook-form"
 import emailjs from '@emailjs/browser';
 
 
 export const Contactos=()=>{
- 
+    const { register, handleSubmit ,formState:{errors},reset,setValue} = useForm();
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -25,8 +26,8 @@ export const Contactos=()=>{
                 showConfirmButton: false,
                 timer: 1500
               });
-              form.current.reset()
-            console.log('SUCCESS!');
+             console.log('SUCCESS!');
+            //  form.current.reset()
           },
           (error) => {
             console.log('FAILED...', error.text);
@@ -46,15 +47,30 @@ export const Contactos=()=>{
         color: "rgb(14, 14, 75)"}}>Escalamos Tu,<br></br>marca juntos</h1>
     <img src="img/contact.png" alt="imgcontacto" className="imgcontacto"></img>
     </div>
-    <form class="formthend" onSubmit={sendEmail} ref={form} >
-  
-       <label for="" >Nombre</label>
-       <input type="text" placeholder="Ej:Edward" name="user_name"></input>
+
+    <form ref={form}class="formthend" onSubmit={handleSubmit(sendEmail)}>
+
+       <label for="">Nombre</label>
+       <input type="text"  name="user_name" {...register("user_name",
+        {required:"Agregue su nombre",
+        minLength:{value:4,message:"Agregue un nombre valido"}
+        }
+      )
+        }></input>
+        {errors.user_name&&<p className="error">{errors.user_name.message}</p>}
        
        <label for="">Correo Electronico*</label>
-       <input type="text" placeholder="Ej:Edward@gmail.com" name="user_email"></input>
+       <input type="email" name="user_email" {...register("user_email",{
+        required:"Agregue su email",
+        minLength:{value:4,message:"Agregue un email valido"}
+       })}></input>
+       {errors.user_email&&<p className="error">{errors.user_email.message}</p>}
        <label for="">¿Como podemos ayudar?</label>
-       <textarea type="text" placeholder="Ingrese Mensaje" className="mensaje" name="message"></textarea>
+        <textarea type="text" placeholder="Ingrese Mensaje" className="mensaje" name="message" {...register("message",{
+          required:"Agregue el mensaje por favor",
+          minLength:{value:6,message:"Agruegue mas contexto al mensaje"}
+        })}></textarea>
+        {errors.message&&<p className="error">{errors.message.message}</p>}
        <button type="submit">ENVIAR</button>
     </form>
        </motion.section>
