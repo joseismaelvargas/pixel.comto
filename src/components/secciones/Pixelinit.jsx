@@ -48,6 +48,15 @@ export const Pixelinit=()=>{
 
 
         </section>
+        <section>
+            <div className="caja container-fluid">
+          <div className="nosotros">
+    
+          <p className="saira-condensed-thin">Pixel Creatividad Integral es una agencia de diseño gráfico y branding dedicada a potenciar la identidad visual de empresas y marcas . la comunicación, con 10 años de probados resultados en el mercado de las TI. </p>
+          </div>
+          
+             </div>
+        </section>
         </>
     )
 }
