@@ -45,6 +45,12 @@
     
     color:gray ;
   }
+  .title-equipos{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+  font-size: 30px;
+  }
   @media only screen and (max-width: 700px) {
     .diseñadores, .estrategas {
       flex-direction: column;
@@ -63,6 +69,9 @@
     }
 }
 @media only screen and (max-width: 500px) {
+  .title-equipos{
+    font-size: 50px;
+  }
   .img{
     margin: 140px -5px;
     width: 350px;
