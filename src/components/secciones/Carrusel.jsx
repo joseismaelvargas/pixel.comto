@@ -7,7 +7,7 @@ export const Carrusel=()=>{
     return(
         <>
         <section className='container seccion-carrusel'>
-            <h1 className="text-center  saira-condensed-thin">Nuestros Servicios </h1>
+            <h1 className="text-center  saira-condensed-thinspan">Nuestros Servicios </h1>
             <Swiper modules={[Autoplay, Navigation]}
               slidesPerView={1} 
               spaceBetween={30} 
