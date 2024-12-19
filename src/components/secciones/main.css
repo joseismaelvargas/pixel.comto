@@ -8,6 +8,7 @@ body{
 .secctioninicial{
     display: flex;
     justify-content: space-around;
+    margin: 0;
    
 
   
@@ -79,7 +80,7 @@ body{
   
 }
 .caja{
-    margin: 150px auto;
+    margin: 0px auto;
     display: flex;
     justify-content: center; 
     justify-content: center;
@@ -141,12 +142,12 @@ body{
     justify-content: space-around;
     margin: 60px;
    }
-   .pixel1{
+   /* .pixel1{
     width:600px;
-    margin: 60px auto;
+    margin: 0px auto;
     
     color: white;
-   }
+   } */
    .verMas{
      width: 150px;
      height: 50px;
@@ -196,6 +197,17 @@ body{
    }
 }
 @media only screen and (max-width: 450px) {
+ 
+  .nosotros{
+    width: 100vh;
+    border: solid 2px black;
+    
+    
+ 
+   
+  }
+
+  
     .secctioninicial{
         flex-wrap: wrap;
       
@@ -273,9 +285,22 @@ body{
        }
       .pixel{
         width: 100%;
-        /* margin: 0px -30px; */
+  
         
       
+      }
+      .caja{
+        height: 800px;
+      }
+      .saira-condensed-thin{
+        width: 80%;
+        text-align: start;
+        font-size: 44px;
+   
+      }
+      .nosotros{border: solid black 2px;
+
+        margin: 0px -40px;
       }
       .titleinit{
         color: #030303;

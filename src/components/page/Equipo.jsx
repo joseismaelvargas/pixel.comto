@@ -5,12 +5,12 @@ export const Equipo=()=>{
         <>
        <section className="SobreElequipo container text-center">
 
-      <motion.h1 style={{ fontWeight:"bold", fontSize:" 55px"}}
+      <motion.h1 
            
             initial={{ opacity: 0, y: -50 }}  
             animate={{ opacity: 1, y: 0 }}    
             transition={{ duration: 2 }}      
-          >
+           className="title-equipos">
            Sobre el Equipo
           </motion.h1>
       <motion.p className="roboto-thin" initial={{ opacity: 0, y: -50 }}  

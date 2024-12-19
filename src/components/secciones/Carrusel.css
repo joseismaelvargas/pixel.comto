@@ -1,5 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Yusei+Magic&display=swap');
+.yusei-magic-regulartitle{
+  font-family: "Yusei Magic", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 90px;
+  color: rgb(224, 92, 4);
+
+}
+.saira-condensed-thin-carruselIndex{
+  font-family: "Saira Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 31px;
+    color: #2e2c2cfd;
+  
+}
+.pixel1{
+background-color: rgba(252, 249, 249, 0.205);
+height: 600px;
+
+}
+.pixel2{
+  background-image: url('https://www.lombaoestudios.com/sites/default/files/slider/Propuesta%201_Banner%20del%20Home.%20Medida%201280x536.jpg');
+  margin: 0px auto;
+  display: flex;
+  justify-content: center; 
+  justify-content: center;
+
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 600px;
+  background-attachment: fixed; 
+   overflow: hidden
+}
+
+.pixel3{
+  background-image: url('https://www.lombaoestudios.com/sites/default/files/slider/Medidas%20del%20Banner_Banner%20del%20Home.%20Medida%201280x536%20copia%202.jpg');
+  /* margin: 0px auto; */
+ 
+ /* display: flex;
+ flex-direction: column; */
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 600px;
+  background-attachment: fixed; 
+   overflow: hidden
+
+}
+.seccionIndex{
+  margin: 0px;
+}
+.swiper-pagination-bullet {
+  background-color: #585454; 
+  width: 60px; 
+  height: 6px; 
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  border-radius: 0; 
+  transform: rotate(-0deg); 
+  border-radius: 10px;
+}
+.swiper-pagination-bullet-active {
+  background-color: #007bff; 
+  opacity: 1;
+}
 .seccion-carrusel{
     background-color: rgba(212, 216, 219, 0.726);
     border-radius: 20px;

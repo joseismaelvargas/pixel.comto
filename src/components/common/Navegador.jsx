@@ -6,6 +6,12 @@ import { Link, NavLink } from "react-router-dom";
 import "./navegador.css"
 
 function Navegador() {
+  const scrollToSection = (id) => {
+    const section = document.querySelector(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <Navbar expand="lg">
       <Container>
@@ -16,7 +22,14 @@ function Navegador() {
             <NavLink className={"navegadores"} end to="/">inicio</NavLink>
             <NavLink className={"navegadores"} end to="/metodologia">Metodologia </NavLink>
             <NavLink className={"navegadores"} end to="/equipo">Nuestro Equipo</NavLink>
-            <NavLink className={"navegadores"} end to="/contacto">Contacto</NavLink>
+            <NavLink
+            end to="/#contacto"
+              className="navegadores"
+              onClick={() => scrollToSection("#contacto")}
+              style={{ cursor: "pointer" }}
+            >
+              Contáctenos
+            </NavLink>
             <button class="buttonnav">Iniciar Sesion</button>
           
          
