@@ -53,8 +53,12 @@ body{
 }
 .navegadores{
   text-decoration: none;
-  color:black;
+  color:rgb(43, 41, 41);
   margin: 0px 10px;
+
+}
+.navegadores:hover{
+color: rgb(196, 65, 18);
 }
 .item{
     margin: 40px;
@@ -64,8 +68,8 @@ body{
 .link{
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 18px;
-    color: black;
+  font-size: 21px;
+    color: rgb(185, 178, 178);
    text-decoration: none;
 }
 @media only screen and (max-width: 450px) {

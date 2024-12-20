@@ -58,8 +58,8 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 17px;
-    color: rgb(0, 0, 0);
+    font-size: 18px;
+    color: rgb(43, 42, 42);
   }
   .subtitle{
     color: white;
@@ -125,7 +125,7 @@ body{
   #title-caja{
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 25px;
   }
 /* section 2 */
 .roboto-thinpixel{
@@ -142,6 +142,12 @@ body{
     margin: 60px;
    }
    .pixel1{
+    width:600px;
+    margin: 60px auto;
+    
+    color: white;
+   }
+   .pixelinfo{
     width:600px;
     margin: 60px auto;
     
@@ -165,12 +171,12 @@ body{
    }
 @media only screen and (max-width: 700px) {
     .secctioninicial{
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     }
     .secctionpixel{
         flex-wrap: wrap;
     }
-    .pixel1{
+    .pixelinfo{
         margin: 60px;
 
     }
@@ -258,7 +264,7 @@ body{
          
         
       }
-      .pixel1{
+      .pixelinfo{
         text-align: start;
       }
 

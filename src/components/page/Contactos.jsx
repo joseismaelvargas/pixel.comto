@@ -41,16 +41,18 @@ export const Contactos=()=>{
  
     return(
         <>
+        <h2 className="text-center saira-condensed-thinspancontacto"id="contacto">Contactenos .</h2>
        <motion.section initial={{ opacity: 0, x: 100 }} 
           animate={{ opacity: 1, x: 0 }}   
           transition={{ duration: 2 }} className="form">
-       <div>
+       <div> 
+       
         <h1 style={{fontSize:"50px",
         color: "rgb(14, 14, 75)"}}>Escalamos Tu,<br></br>marca juntos</h1>
     <img src="img/contact.png" alt="imgcontacto" className="imgcontacto"></img>
     </div>
 
-    <form ref={form}class="formthend" onSubmit={handleSubmit(sendEmail)}>
+    <form ref={form}class="formthend"  onSubmit={handleSubmit(sendEmail)}>
 
        <label for="">Nombre Completo</label>
        <input type="text"  name="user_name" {...register("user_name",

@@ -5,13 +5,7 @@ export const Pixelinfo=()=>{
         <>
         <section className="sectioninfo container-fluid " >
             
-            {/* <div className="caja container">
-          <div className="nosotros">
-            <h1 className=" subtitle">Nosotros</h1><br></br>
-          <p className="roboto-thin-nosotros">Pixel Creatividad Integral es una agencia de diseño gráfico y branding dedicada a potenciar la identidad visual de empresas y marcas. Nos especializamos en la creación de soluciones visuales impactantes que conectan emocionalmente con el público objetivo y reflejan la esencia y los valores de cada <br></br>cliente.</p>
-          </div>
-          
-             </div> */}
+            
 
              <div className="boxfather">
                 <div className="boxson">
@@ -43,7 +37,7 @@ export const Pixelinfo=()=>{
           <div className="secctionpixel">
             <img src="./img/about-banner.png" alt="imgpixel" width={"350px"} className="imgpix" />
           
-           <div className="pixel1">
+           <div className="pixelinfo">
            <h1 >En Pixel, crecemos <br></br> contigo. Tu éxito es <br></br>nuestro éxito   </h1>
             <p class="roboto-thinpixel ">¿Estás listo para llevar la imagen de tu marca al siguiente nivel? ¡Haz clic en el botón "Ver más" a continuación para descubrir cómo podemos crear un logotipo que refleje la esencia de tu negocio!</p>
             <Link end to="/equipo"> 
