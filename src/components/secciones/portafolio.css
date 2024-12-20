@@ -1,23 +1,47 @@
+
+.menuportafolio{
+   
+    width: 700px ;
+    height: 50px;
+    display: flex;
+    margin: 0px auto;
+
+}
 .proyecto{
 
-    width: 360px;
+    width: 430px;
     margin: 20px 10px;
-    height: 300px;
+    height: 360px;
     border-radius: 10px;
     position: relative;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 236, 236);
 }
 .imgproyecto{
-    width: 360px;
-    height: 300px;
-    margin: 20px auto;
-}
+    width: 430px;
+    height: 360px;
+    border-radius: 10px;
+
+} 
 .proyectos-padre{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 
 }
+.saira-condensed-thinspanportafolio{
+    font-family: "Saira Condensed", sans-serif;
+    font-weight:bold;
+    font-style: normal;
+  align-items: center;
+    font-size: 25px;
+    /* margin: 40px; */
+    margin: 0px 15px;
+  }
+  .saira-condensed-thinspanportafolio:hover{
+    color: rgb(223, 92, 17);
+    cursor: pointer;
+  }
+  
 .overlay{
     position: absolute;
     top: 0;
@@ -32,12 +56,17 @@ background: linear-gradient(90deg, rgba(131,13,59,0.5858718487394958) 0%, rgba(4
     justify-content: center; 
     border-radius: 10PX;
     opacity: 0;
-    transition: opacity 0.2s ease;
-    
+   
+     transition: opacity 0.2s ease; 
     z-index: 10
 }
+
+.overlay:hover .divoverlay {
+    transform: translateY(0); 
+    opacity: 1; 
+}
 .saira-condensed-thin-overlay{
-    animation: moveUp 1s ease-out forwards;
+
     font-family: "Saira Condensed", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -46,9 +75,15 @@ background: linear-gradient(90deg, rgba(131,13,59,0.5858718487394958) 0%, rgba(4
  
 
   }
-.divoverlay{
+  .saira-condensed-thin-overlay{
+        animation: moveUp 1s ease-out forwards;
+  }
+  .divoverlay {
     color: rgb(233, 245, 255);
     text-align: center;
+    transform: translateY(100%); /* Estado inicial fuera de vista */
+    opacity: 0; /* Oculto inicialmente */
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out; /* Animación en hover */
 }
 .overlay p{
     font-size: 20px;
@@ -61,12 +96,4 @@ background: linear-gradient(90deg, rgba(131,13,59,0.5858718487394958) 0%, rgba(4
     opacity: 0.2;
 
 }
-@keyframes moveUp {
-    0% {
-        transform: translateY(100%); /* Comienza desde abajo (fuera de la vista) */
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0); /* Finaliza en su posición original */
-        opacity: 1; /* El texto se vuelve completamente visible */
-    }}
+

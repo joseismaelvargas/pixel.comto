@@ -5,7 +5,7 @@ import { Footer } from "./components/common/Footer.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Equipo } from "./components/page/Equipo.jsx";
 import { Metodologia } from "./components/page/Metodologia.jsx";
-
+import { Portafolio } from "./components/secciones/Portafolio.jsx";
 import Navegador from "./components/common/Navegador.jsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,7 +20,7 @@ function App() {
 
    <Routes>
     <Route path="/" element={<Index></Index>}></Route>
-    
+    <Route path="/portafolio" element={<Portafolio></Portafolio>}></Route>
     <Route path="/equipo" element={<Equipo></Equipo>}></Route>
     <Route path="/metodologia" element={<Metodologia></Metodologia>}></Route>
    </Routes>

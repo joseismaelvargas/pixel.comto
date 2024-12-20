@@ -20,6 +20,7 @@ function Navegador() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="link d-flex ms-auto">
             <NavLink className={"navegadores"} end to="/">inicio</NavLink>
+            <NavLink className={"navegadores"} end to="/portafolio">Portafolio</NavLink>
             <NavLink className={"navegadores"} end to="/metodologia">Metodologia </NavLink>
             <NavLink className={"navegadores"} end to="/equipo">Nuestro Equipo</NavLink>
             <NavLink
