@@ -59,6 +59,13 @@
     text-decoration: none;
     
   }
+  .title-carrusel{
+    margin: 60px;
+    font-size: 45px;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 500;
+    color: black;
+  }
   @media only screen and (max-width: 700px) {
    .swiper-slide{
     flex-wrap: wrap;
