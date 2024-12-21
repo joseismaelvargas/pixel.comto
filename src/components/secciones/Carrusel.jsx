@@ -24,7 +24,7 @@ export const Carrusel=()=>{
                
                 <SwiperSlide className='swiper-slide'>
                 <div className='boxswiper'>
-                   <span className='saira-condensed-thinspan'>Consultoria Tecnologica</span>
+                   <span className='saira-condensed-thinspantitle'>Consultoria Tecnologica</span>
                  <hr 
                   />
                  <p className='yusei-magic-regular'>Ofrecemos un servicio integral de aplicaciones de gestión empresarial con Odoo, diseñado para optimizar los procesos de su empresa. Nuestro equipo de desarrolladores expertos personaliza e implementa Odoo, adaptando cada módulo a sus necesidades específicas. Desde la integración de CRM y contabilidad hasta la automatización de procesos, garantizamos soluciones robustas que mejoran la eficiencia y fomentan el crecimiento estratégico.</p>
@@ -36,7 +36,7 @@ export const Carrusel=()=>{
              </SwiperSlide>
   <SwiperSlide className="swiper-slide">
     <div className="boxswiper">
-      <span className='saira-condensed-thinspan'>Marketing Digital</span>
+      <span className='saira-condensed-thinspantitle'>Marketing Digital</span>
       <hr />
       <p className='yusei-magic-regular'>
      Nos encargamos de tus redes por ti.Si te falta tiempo nosotros lo hacemos por ti tenemos diferentes planes contactanos que seguro habra uno para ti .
@@ -48,7 +48,7 @@ export const Carrusel=()=>{
   </SwiperSlide>
   <SwiperSlide>
   <div className="boxswiper">
-      <span className='saira-condensed-thinspan'> Diseño personalizado</span>
+      <span className='saira-condensed-thinspantitle'> Diseño personalizado</span>
       <hr />
       <p className='yusei-magic-regular'>
       Haz que tu eCommerce destaque con un diseño único y hecho a tu medida. Nuestro equipo se encarga de crear una tienda que refleje la identidad de tu marca y brinde una experiencia excepcional a tus clientes.
@@ -61,7 +61,7 @@ export const Carrusel=()=>{
   </SwiperSlide>
   <SwiperSlide>
   <div className="boxswiper">
-      <span className='saira-condensed-thinspan'> Soporte post desarrollo</span>
+      <span className='saira-condensed-thinspantitle'> Soporte post desarrollo</span>
       <hr />
       <p className='yusei-magic-regular'>
       No te dejamos solo después del desarrollo. Nuestro compromiso es que tu plataforma funcione perfectamente en todo momento. Por eso, ofrecemos un servicio de soporte post desarrollo adaptado a tus necesidades.

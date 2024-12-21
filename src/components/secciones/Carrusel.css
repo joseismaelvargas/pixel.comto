@@ -47,15 +47,18 @@ height: 600px;
    overflow: hidden
 
 }
+.swiper-index{
+  height: 560px;
+}
 .seccionIndex{
   margin: 0px;
 }
 /* swiper edition */
 .swiper-button-prev,
 .swiper-button-next {
-  background-color: #ff8251; /* Cambiar color de fondo */
-  color: #fff; /* Cambiar color del icono */
-  border-radius: 100%; /* Hacerlos circulares */
+  background-color: #ff8251; 
+  color: #fff; 
+  border-radius: 100%; 
   width: 55px;
   height: 55px;
   display: flex;
@@ -109,7 +112,16 @@ background-color: #f7b188;
     font-style: normal;
     font-size: 45px;
     font-size: 43px;
-    margin: 110px;
+    margin: 110px auto;
+
+  }
+  .saira-condensed-thinspantitle{
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
+    font-size: 43px;
+    margin: 110px auto;
 
   }
 .boxswiper{
@@ -134,6 +146,18 @@ background-color: #f7b188;
     font-size: 18px;
     color: rgb(71, 73, 75);
   }
+  .estilobutton{
+    background-color: rgb(197, 59, 4);
+          color: white;
+          font-family: sans-serif;
+          font-weight: bold;
+          border-radius: 10px;
+          border: none;
+          width: 150px;
+          height: 50px;
+    
+          cursor: pointer
+}
   .solicitar{
     color: rgb(223, 88, 65);
     font-weight: bold;
@@ -149,6 +173,7 @@ background-color: #f7b188;
     font-weight: 500;
     color: black;
   }
+ 
   @media only screen and (max-width: 700px) {
    .swiper-slide{
     flex-wrap: wrap;
@@ -163,16 +188,38 @@ background-color: #f7b188;
    }
 }
 @media only screen and (max-width: 500px) {
-  .swiper-slide{
-    flex-wrap: wrap;
+  
+   .pixel2{
+    width: 100%;
    }
-   /* .solicitar{
-    margin: 30px;
-   } */
+   .saira-condensed-thinspantitle{
+    width: 100%;
+    font-size: 45px;
+   
+   }
+   
+   
+   
+   .saira-condensed-thin-carruselIndex{
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+   }
+   .swiper-index{
+    height: 470px;
+   }
+   
+   .yusei-magic-regulartitle{
+    font-size: 46px;
+   }
    .img-carrusel{
     width: 100%;
     height: 310px;
 
+   }
+   .swiper-button-prev,
+   .swiper-button-next{
+    background-color: #007bff00;
    }
    .saira-condensed-thin{
     font-size: 42px;
@@ -181,5 +228,7 @@ background-color: #f7b188;
    .yusei-magic-regular{
     font-size: 20px;
    }
-  
+  .estilobutton{
+    margin: 0px auto;
+  }
        }

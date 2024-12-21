@@ -16,7 +16,7 @@ export const CarruselIndex=()=>{
         <section className="container-fluid seccionIndex">
         <Swiper modules={[Autoplay, Navigation,Pagination]}
               slidesPerView={1} 
-              spaceBetween={30} 
+              spaceBetween={50} 
             
             autoplay={{
                 delay:4000
@@ -27,6 +27,7 @@ export const CarruselIndex=()=>{
                 clickable: true,
               }}
               onSlideChange={() => setAnimationKey((prev) => prev + 1)}
+              className='swiper-index'
       >
             <SwiperSlide className='pixel1'>
             <div className="pixel">
@@ -42,13 +43,13 @@ export const CarruselIndex=()=>{
 
           <motion.p
           key={`p-${animationKey}`}
-            className=" saira-condensed-thin-carruselIndex"
+            className=" saira-condensed-thin-carruselIndex text-start"
             initial={{ opacity: 0, x: 100 }} 
           animate={{ opacity: 1, x: 0 }}   
             transition={{ duration: 1.5, delay: 0.5 }}  
           >
             Transformamos ideas en experiencias visuales memorables.<br />
-            Llega mas rapido Multiplicate de manera<br /> efectiva,para que llegues a mas
+            Llega mas rapido Multiplicate de manera exitosa<br /> 
           </motion.p>
 
           <motion.button

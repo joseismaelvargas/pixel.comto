@@ -29,18 +29,7 @@ body{
     /* margin: 0px -100px; */
 
 }
-.estilobutton{
-    background-color: rgb(197, 59, 4);
-          color: white;
-          font-family: sans-serif;
-          font-weight: bold;
-          border-radius: 10px;
-          border: none;
-          width: 150px;
-          height: 50px;
-    
-          cursor: pointer
-}
+
 /* pixel info */
 .material-symbols-outlined{
     font-size: 60px;
@@ -206,6 +195,9 @@ body{
   .nosotros{
     width: 100vh;
     border: solid 2px black;
+    height: 20px;
+   
+    
     
     
  
@@ -215,7 +207,7 @@ body{
   
     .secctioninicial{
         flex-wrap: wrap;
-      
+    
     }
   
     .imgmain{
@@ -245,6 +237,7 @@ body{
        .caja{
         margin: 60px auto;
         width:auto  ;
+    
         
         text-align: center;
        }
@@ -298,9 +291,9 @@ body{
         height: 800px;
       }
       .saira-condensed-thin{
-        width: 80%;
+        width: 84%;
         text-align: start;
-        font-size: 44px;
+        font-size: 20px;
    
       }
       .nosotros{border: solid black 2px;
@@ -312,9 +305,9 @@ body{
         text-align: start;
         font-size: 50px;
       }
-      .pixel1 h1{
+      /* .pixel1 h1{
        font-size: 35px;
        font-weight: 600;
        margin: 10px;
-      }
+      } */
        }
